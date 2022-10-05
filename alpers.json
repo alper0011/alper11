@@ -1,0 +1,960 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {},
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm773318alpers1a",
+      "location": "eastus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "1e8buw0zfdm286271alpers1a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm185845alpers1b",
+      "location": "eastus2",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "2e8buw0zfdm125761alpers1b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm125836alpers1b",
+      "location": "southcentralus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "3e8buw0zfdm841482alpers1b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "4e8buw0zfdm734398alpers1c",
+      "location": "westus2",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm718950alpers1c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "5e8buw0zfdm842525alpers1d",
+      "location": "westus3",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm236263alpers1d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm56999alpers2a",
+      "location": "australiaeast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm224516alpers2a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm802073alpers2b",
+      "location": "southeastasia",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm665355alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm579559alpers2b",
+      "location": "northeurope",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm208896alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm16981alpers2c",
+      "location": "swedencentral",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm427510alpers2c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm693670alpers2d",
+      "location": "uksouth",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm688636alpers2d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm216879alpers3a",
+      "location": "westeurope",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm185455alpers3a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm769157alpers3b",
+      "location": "centralus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm601512alpers3b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm625466alpers3c",
+      "location": "southafricanorth",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm881183alpers3c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm629996alpers3d",
+      "location": "centralindia",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm800025alpers3d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm159228alpers4a",
+      "location": "eastasia",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm50084alpers4a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm349147alpers4b",
+      "location": "japaneast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm621272alpers4b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm656139alpers4c",
+      "location": "koreacentral",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm140479alpers4c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm246722alpers4d",
+      "location": "canadacentral",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm113504alpers4d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm209976alpers5a",
+      "location": "francecentral",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm692182alpers5a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm963429alpers5b",
+      "location": "germanywestcentral",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm601255alpers5b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm549020alpers5c",
+      "location": "norwayeast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm86575alpers5c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm69591alpers2b",
+      "location": "switzerlandnorth",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm168695alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm427574alpers2b",
+      "location": "uaenorth",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm23685alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm935925alpers2b",
+      "location": "brazilsouth",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm823975alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm854024alpers1a",
+      "location": "northcentralus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm883320alpers1a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm594472alpers1b",
+      "location": "westus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm352911alpers1b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm96168alpers1b",
+      "location": "westcentralus",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm429007alpers1b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm259490alpers1c",
+      "location": "australiasoutheast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm877730alpers1c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm97563alpers1d",
+      "location": "japanwest",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm558588alpers1d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm527085alpers2a",
+      "location": "southindia",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm866328alpers2a",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm500122alpers2b",
+      "location": "canadaeast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm963203alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm975720alpers2b",
+      "location": "norwaywest",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm841833alpers2b",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm519698alpers2c",
+      "location": "switzerlandwest",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm853745alpers2c",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    },
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-10-01",
+      "name": "e8buw0zfdm72270alpers2d",
+      "location": "ukwest",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "e8buw0zfdm720238alpers2d",
+            "properties": {
+              "image": "alper0011/alper0011:latest",
+              "ports": [],
+              "environmentVariables": [],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 2,
+                  "cpu": 4
+                }
+              }
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "osType": "Linux"
+      }
+    }
+  ]
+}
